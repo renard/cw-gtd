@@ -5,7 +5,7 @@
 ;; Author: Sebastien Gross <seb•ɑƬ•chezwam•ɖɵʈ•org>
 ;; Keywords: 
 ;; Created: 2011-07-18
-;; Last changed: 2011-07-18 20:34:07
+;; Last changed: 2011-09-12 10:18:02
 ;; Licence: WTFPL, grab your copy here: http://sam.zoy.org/wtfpl/
 
 ;; This file is NOT part of GNU Emacs.
@@ -192,7 +192,7 @@
 
   (global-set-key (kbd "<C-f12>") 'org-capture)
   (global-set-key (kbd "<C-S-f12>") 'org-clock-goto)
-  (global-set-key (kbd "<f12>") 'org-agenda)
+  (global-set-key (kbd "<f12>") 'org-agenda-list)
   (global-set-key (kbd "C-c a") 'org-agenda)
   (global-set-key (kbd "<C-f5>") 'cw:gtd:open-bookmark))
 
